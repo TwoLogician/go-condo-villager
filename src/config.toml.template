@@ -1,0 +1,15 @@
+condo_email = ""
+
+[database]
+db_name = ""
+host = ""
+password = ""
+port = 0
+user = ""
+
+[smtp]
+from = ""
+host = ""
+port = 0
+username = ""
+password = ""

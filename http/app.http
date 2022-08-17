@@ -1,0 +1,21 @@
+GET http://localhost:8080/water-bill
+
+###
+
+POST http://localhost:8080/water-bill
+Authorization: "admin:admin"
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="data"
+
+{
+    "id": "2",
+    "note": "Two text file"
+}
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="2.txt"
+Content-Type: text/plain
+
+< ./2.txt
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
